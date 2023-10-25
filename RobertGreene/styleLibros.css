@@ -1,0 +1,56 @@
+img{
+    width: 200px;
+}
+.contenedoLibros{
+    display: flex;
+    position: relative;
+    margin-bottom: 20px; 
+
+}
+.Libro{
+    margin-bottom: 10px; 
+}
+/*section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover {
+    cursor: crosshair;
+    width: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.LibrosOrd{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}*/
+.Contenedor {
+    position: relative;
+    display: flex;
+}
+
+.ImagenYtexto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img48leyes {
+    max-width: 50%; 
+    height: auto;
+}
+
+.text1 {
+    flex: 1; 
+    padding-left: 10px; 
+}
